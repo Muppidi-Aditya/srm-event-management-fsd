@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.ring {
+    position: relative;
+    width: 360px;
+    height: 360px;
+}
+
+.box {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 5px;
+    /* Center the box content */
+    transform-origin: bottom center;
+}
+
+/* Calculate the position and rotation of each box */
+.ring .box:nth-child(1)  { transform: rotate(0deg) translateY(-135px) rotate(0deg); }
+.ring .box:nth-child(2)  { transform: rotate(15deg) translateY(-135px) rotate(-15deg); }
+.ring .box:nth-child(3)  { transform: rotate(30deg) translateY(-135px) rotate(-30deg); }
+.ring .box:nth-child(4)  { transform: rotate(45deg) translateY(-135px) rotate(-45deg); }
+.ring .box:nth-child(5)  { transform: rotate(60deg) translateY(-135px) rotate(-60deg); }
+.ring .box:nth-child(6)  { transform: rotate(75deg) translateY(-135px) rotate(-75deg); }
+.ring .box:nth-child(7)  { transform: rotate(90deg) translateY(-135px) rotate(-90deg); }
+.ring .box:nth-child(8)  { transform: rotate(105deg) translateY(-135px) rotate(-105deg); }
+.ring .box:nth-child(9)  { transform: rotate(120deg) translateY(-135px) rotate(-120deg); }
+.ring .box:nth-child(10) { transform: rotate(135deg) translateY(-135px) rotate(-135deg); }
+.ring .box:nth-child(11) { transform: rotate(150deg) translateY(-135px) rotate(-150deg); }
+.ring .box:nth-child(12) { transform: rotate(165deg) translateY(-135px) rotate(-165deg); }
+.ring .box:nth-child(13) { transform: rotate(180deg) translateY(-135px) rotate(-180deg); }
+.ring .box:nth-child(14) { transform: rotate(195deg) translateY(-135px) rotate(-195deg); }
+.ring .box:nth-child(15) { transform: rotate(210deg) translateY(-135px) rotate(-210deg); }
+.ring .box:nth-child(16) { transform: rotate(225deg) translateY(-135px) rotate(-225deg); }
+.ring .box:nth-child(17) { transform: rotate(240deg) translateY(-135px) rotate(-240deg); }
+.ring .box:nth-child(18) { transform: rotate(255deg) translateY(-135px) rotate(-255deg); }
+.ring .box:nth-child(19) { transform: rotate(270deg) translateY(-135px) rotate(-270deg); }
+.ring .box:nth-child(20) { transform: rotate(285deg) translateY(-135px) rotate(-285deg); }
+.ring .box:nth-child(21) { transform: rotate(300deg) translateY(-135px) rotate(-300deg); }
+.ring .box:nth-child(22) { transform: rotate(315deg) translateY(-135px) rotate(-315deg); }
+.ring .box:nth-child(23) { transform: rotate(330deg) translateY(-135px) rotate(-330deg); }
+.ring .box:nth-child(24) { transform: rotate(345deg) translateY(-135px) rotate(-345deg); }
